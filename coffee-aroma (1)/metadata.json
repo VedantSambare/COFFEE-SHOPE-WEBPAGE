@@ -1,0 +1,6 @@
+{
+  "name": "Coffee Aroma",
+  "description": "Award-winning cinematic coffee shop experience, interactive online ordering, POS billing & admin management system for Coffee Aroma.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

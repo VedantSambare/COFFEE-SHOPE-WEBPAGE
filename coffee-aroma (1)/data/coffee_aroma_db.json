@@ -1,0 +1,2716 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "username": "rutik_mane",
+      "name": "Rutik Mane",
+      "role": "ADMIN",
+      "phone": "+91 7709054465",
+      "status": "ACTIVE",
+      "passwordHash": "$2b$10$G0PdL9PVkWC2sK0DHW1Rx.66S5e54ilwRxaPLfSSBJ48xqo96REBS",
+      "createdAt": "2026-09-09T17:54:58.538Z"
+    },
+    {
+      "id": "usr-emp-01",
+      "username": "priya_staff",
+      "name": "Priya Sharma",
+      "role": "EMPLOYEE",
+      "phone": "+91 9823412345",
+      "status": "ACTIVE",
+      "passwordHash": "$2b$10$G0PdL9PVkWC2sK0DHW1Rx.o6z9yFKuxDwS9tTqR.F4FSr3ONscaWi",
+      "createdAt": "2026-09-09T17:54:58.538Z"
+    },
+    {
+      "id": "usr-emp-02",
+      "username": "rohit_barista",
+      "name": "Rohit Deshmukh (Lead Barista)",
+      "role": "EMPLOYEE",
+      "phone": "+91 9765432190",
+      "status": "ACTIVE",
+      "passwordHash": "$2b$10$G0PdL9PVkWC2sK0DHW1Rx.o6z9yFKuxDwS9tTqR.F4FSr3ONscaWi",
+      "createdAt": "2026-09-09T17:54:58.538Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-speciality-coffees",
+      "name": "Speciality Coffees",
+      "slug": "speciality-coffees",
+      "icon": "Coffee",
+      "description": "Freshly ground artisanal beans, precision-pulled shots & velvety steamed milk.",
+      "displayOrder": 1
+    },
+    {
+      "id": "cat-speciality-drinks",
+      "name": "Speciality Drinks",
+      "slug": "speciality-drinks",
+      "icon": "Sparkles",
+      "description": "Our signature culinary creations crafted with gourmet ingredients.",
+      "displayOrder": 2
+    },
+    {
+      "id": "cat-pancakes",
+      "name": "Pancakes",
+      "slug": "pancakes",
+      "icon": "Flame",
+      "description": "Fluffy, golden stacked pancakes served with artisanal syrups & warm drizzles.",
+      "displayOrder": 3
+    },
+    {
+      "id": "cat-frappes",
+      "name": "Frappes",
+      "slug": "frappes",
+      "icon": "IceCream",
+      "description": "Blended thick, icy espresso concoctions topped with silky whipped cream.",
+      "displayOrder": 4
+    },
+    {
+      "id": "cat-hot-chocolate",
+      "name": "Hot Chocolate",
+      "slug": "hot-chocolate",
+      "icon": "HeartHandshake",
+      "description": "Melted Belgian chocolate ganache steamed with whole milk.",
+      "displayOrder": 5
+    },
+    {
+      "id": "cat-iced-coffees",
+      "name": "Iced Coffees",
+      "slug": "iced-coffees",
+      "icon": "Snowflake",
+      "description": "Crisp, chilled espresso poured over crystal ice spheres.",
+      "displayOrder": 6
+    },
+    {
+      "id": "cat-milk-shakes",
+      "name": "Milk Shakes",
+      "slug": "milk-shakes",
+      "icon": "Milk",
+      "description": "Ultra-creamy milkshakes spun with gourmet gelato and pure chocolate.",
+      "displayOrder": 7
+    },
+    {
+      "id": "cat-refreshers",
+      "name": "Refreshers",
+      "slug": "refreshers",
+      "icon": "GlassWater",
+      "description": "Sparkling botanical teas and cold-pressed citrus coolers.",
+      "displayOrder": 8
+    },
+    {
+      "id": "cat-add-ons",
+      "name": "Add-Ons",
+      "slug": "add-ons",
+      "icon": "PlusCircle",
+      "description": "Custom extra shots, gourmet sauces, and velvety foam upgrades.",
+      "displayOrder": 9
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-cappuccino",
+      "name": "Cappuccino",
+      "category": "Speciality Coffees",
+      "price": 99,
+      "description": "Rich double espresso combined with silky microfoam and dense velvety crema.",
+      "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 240,
+      "minStock": 20,
+      "isFeatured": true,
+      "isBestSeller": true,
+      "ingredients": [
+        {
+          "ingredientId": "inv-beans",
+          "name": "Arabica Coffee Beans",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "inv-milk",
+          "name": "Full Cream Milk",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-cups-hot",
+          "name": "Hot Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-extra-shot",
+          "name": "Extra Espresso Shot",
+          "price": 30
+        },
+        {
+          "id": "ao-vanilla",
+          "name": "Madagascar Vanilla Syrup",
+          "price": 25
+        },
+        {
+          "id": "ao-caramel",
+          "name": "Caramel Drizzle",
+          "price": 20
+        }
+      ],
+      "tags": [
+        "Espresso",
+        "Velvety",
+        "Signature"
+      ]
+    },
+    {
+      "id": "prod-espresso",
+      "name": "Classic Espresso",
+      "category": "Speciality Coffees",
+      "price": 79,
+      "description": "Intense double ristretto pull extracting floral cocoa notes and golden crema.",
+      "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 300,
+      "minStock": 25,
+      "isFeatured": false,
+      "ingredients": [
+        {
+          "ingredientId": "inv-beans",
+          "name": "Arabica Coffee Beans",
+          "amount": 18,
+          "unit": "g"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-extra-shot",
+          "name": "Extra Shot",
+          "price": 30
+        }
+      ],
+      "tags": [
+        "Bold",
+        "Pure",
+        "Aromatic"
+      ]
+    },
+    {
+      "id": "prod-cafe-latte",
+      "name": "Cafe Latte",
+      "category": "Speciality Coffees",
+      "price": 109,
+      "description": "Smooth and comforting espresso with a generous pour of warm steamed whole milk.",
+      "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 200,
+      "minStock": 15,
+      "isFeatured": true,
+      "ingredients": [
+        {
+          "ingredientId": "inv-beans",
+          "name": "Arabica Coffee Beans",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "inv-milk",
+          "name": "Full Cream Milk",
+          "amount": 240,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-cups-hot",
+          "name": "Hot Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-hazelnut",
+          "name": "Roasted Hazelnut Syrup",
+          "price": 25
+        },
+        {
+          "id": "ao-whip",
+          "name": "Whipped Cream",
+          "price": 20
+        }
+      ],
+      "tags": [
+        "Smooth",
+        "Comforting"
+      ]
+    },
+    {
+      "id": "prod-caramel-macchiato",
+      "name": "Caramel Macchiato",
+      "category": "Speciality Coffees",
+      "price": 139,
+      "description": "Layered steamed milk with vanilla, marked with intense espresso and buttery salted caramel grid.",
+      "image": "https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 150,
+      "minStock": 15,
+      "isSpecial": true,
+      "ingredients": [
+        {
+          "ingredientId": "inv-beans",
+          "name": "Arabica Coffee Beans",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "inv-milk",
+          "name": "Full Cream Milk",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-caramel",
+          "name": "Caramel Syrup",
+          "amount": 20,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-cups-hot",
+          "name": "Hot Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-whip",
+          "name": "Whipped Cream",
+          "price": 20
+        },
+        {
+          "id": "ao-extra-caramel",
+          "name": "Extra Caramel Sauce",
+          "price": 20
+        }
+      ],
+      "tags": [
+        "Sweet",
+        "Layered",
+        "Signature"
+      ]
+    },
+    {
+      "id": "prod-tiramisu-cheesecake-latte",
+      "name": "Tiramisu Cheesecake Latte",
+      "category": "Speciality Drinks",
+      "price": 169,
+      "description": "Decadent mascarpone cold foam layered over espresso, rich milk, and dusted with Belgian cocoa.",
+      "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 95,
+      "minStock": 10,
+      "isFeatured": true,
+      "isSpecial": true,
+      "isBestSeller": true,
+      "ingredients": [
+        {
+          "ingredientId": "inv-beans",
+          "name": "Arabica Coffee Beans",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "inv-milk",
+          "name": "Full Cream Milk",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-chocolate",
+          "name": "Belgian Chocolate",
+          "amount": 15,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-cups-cold",
+          "name": "Cold Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-whip",
+          "name": "Extra Mascarpone Foam",
+          "price": 25
+        },
+        {
+          "id": "ao-chocolate-flake",
+          "name": "Dark Chocolate Flakes",
+          "price": 20
+        }
+      ],
+      "tags": [
+        "Gourmet",
+        "Chef Special",
+        "Iced"
+      ]
+    },
+    {
+      "id": "prod-iced-chocolate",
+      "name": "Iced Chocolate Supreme",
+      "category": "Speciality Drinks",
+      "price": 159,
+      "description": "Chilled Belgian chocolate elixir shaken over ice, topped with cocoa mousse and dark curls.",
+      "image": "https://images.unsplash.com/photo-1517578239113-b03992dcdd25?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 110,
+      "minStock": 12,
+      "isSpecial": true,
+      "ingredients": [
+        {
+          "ingredientId": "inv-chocolate",
+          "name": "Belgian Chocolate",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-milk",
+          "name": "Full Cream Milk",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-cups-cold",
+          "name": "Cold Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-nutella",
+          "name": "Nutella Swirl",
+          "price": 30
+        },
+        {
+          "id": "ao-whip",
+          "name": "Whipped Cream",
+          "price": 20
+        }
+      ],
+      "tags": [
+        "Chilled",
+        "Decadent",
+        "Chocolate"
+      ]
+    },
+    {
+      "id": "prod-diet-coke-espresso",
+      "name": "Diet Coke Espresso Fizz",
+      "category": "Speciality Drinks",
+      "price": 149,
+      "description": "A bold, avant-garde pairing: ice-cold bubbly Diet Coke crowned with a freshly pulled espresso crema shot.",
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 80,
+      "minStock": 10,
+      "isSpecial": true,
+      "ingredients": [
+        {
+          "ingredientId": "inv-beans",
+          "name": "Arabica Coffee Beans",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "inv-cups-cold",
+          "name": "Cold Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-lime",
+          "name": "Fresh Lime Squeeze",
+          "price": 15
+        },
+        {
+          "id": "ao-extra-shot",
+          "name": "Double Espresso Float",
+          "price": 30
+        }
+      ],
+      "tags": [
+        "Bubbly",
+        "Refreshing",
+        "Modern"
+      ]
+    },
+    {
+      "id": "prod-strawberry-cheesecake-latte",
+      "name": "Strawberry Cheesecake Latte",
+      "category": "Speciality Drinks",
+      "price": 169,
+      "description": "Natural crushed strawberries, biscuit crumble base, steamed milk and espresso with creamy cheesecake cap.",
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 90,
+      "minStock": 10,
+      "isSpecial": true,
+      "ingredients": [
+        {
+          "ingredientId": "inv-beans",
+          "name": "Arabica Coffee Beans",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "inv-milk",
+          "name": "Full Cream Milk",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-cups-cold",
+          "name": "Cold Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-whip",
+          "name": "Whipped Cream",
+          "price": 20
+        },
+        {
+          "id": "ao-strawberry-puree",
+          "name": "Extra Strawberry Compote",
+          "price": 25
+        }
+      ],
+      "tags": [
+        "Fruity",
+        "Artisanal",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "prod-pancake-maple",
+      "name": "Pancake with Maple Syrup",
+      "category": "Pancakes",
+      "price": 99,
+      "description": "Stack of 3 golden fluffy buttermilk pancakes served with melted farm butter and 100% pure maple syrup.",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 150,
+      "minStock": 20,
+      "isFeatured": true,
+      "ingredients": [
+        {
+          "ingredientId": "inv-maple",
+          "name": "Maple Syrup",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-pancake-boxes",
+          "name": "Pancake Box",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-extra-maple",
+          "name": "Extra Maple Syrup",
+          "price": 25
+        },
+        {
+          "id": "ao-whip",
+          "name": "Whipped Cream",
+          "price": 20
+        },
+        {
+          "id": "ao-butter",
+          "name": "Artisanal Whipped Butter",
+          "price": 15
+        }
+      ],
+      "tags": [
+        "Classic",
+        "Fluffy",
+        "Golden"
+      ]
+    },
+    {
+      "id": "prod-chocolate-pancake",
+      "name": "Chocolate Pancake Stack",
+      "category": "Pancakes",
+      "price": 119,
+      "description": "Warm fluffy pancakes smothered in melted dark chocolate sauce and toasted almonds.",
+      "image": "https://images.unsplash.com/photo-1565299543923-37dd37887442?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 120,
+      "minStock": 15,
+      "isFeatured": true,
+      "ingredients": [
+        {
+          "ingredientId": "inv-chocolate",
+          "name": "Belgian Chocolate",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-pancake-boxes",
+          "name": "Pancake Box",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-whip",
+          "name": "Whipped Cream",
+          "price": 20
+        },
+        {
+          "id": "ao-extra-choco",
+          "name": "Double Warm Chocolate Drizzle",
+          "price": 20
+        }
+      ],
+      "tags": [
+        "Chocolate",
+        "Indulgent"
+      ]
+    },
+    {
+      "id": "prod-double-chocolate-pancake",
+      "name": "Double Chocolate Pancake",
+      "category": "Pancakes",
+      "price": 149,
+      "description": "Cocoa-infused pancake stack filled with molten chocolate lava, drenched in ganache & choco chips.",
+      "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 90,
+      "minStock": 10,
+      "isBestSeller": true,
+      "ingredients": [
+        {
+          "ingredientId": "inv-chocolate",
+          "name": "Belgian Chocolate",
+          "amount": 75,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-pancake-boxes",
+          "name": "Pancake Box",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-whip",
+          "name": "Whipped Cream",
+          "price": 20
+        },
+        {
+          "id": "ao-icecream",
+          "name": "Vanilla Bean Gelato Scoop",
+          "price": 40
+        }
+      ],
+      "tags": [
+        "Lava",
+        "Double Choco",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": "prod-nutella-pancake",
+      "name": "Nutella Hazelnut Pancake",
+      "category": "Pancakes",
+      "price": 149,
+      "description": "Fluffy cloud pancakes generously slathered with warm Nutella and roasted Piedmont hazelnut crunch.",
+      "image": "https://images.unsplash.com/photo-1554520735-1d65acff34bb?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 110,
+      "minStock": 15,
+      "isFeatured": true,
+      "isBestSeller": true,
+      "ingredients": [
+        {
+          "ingredientId": "inv-nutella",
+          "name": "Nutella Spread",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "inv-pancake-boxes",
+          "name": "Pancake Box",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-banana",
+          "name": "Caramelized Fresh Banana",
+          "price": 25
+        },
+        {
+          "id": "ao-extra-nutella",
+          "name": "Extra Nutella Pot",
+          "price": 30
+        }
+      ],
+      "tags": [
+        "Nutella",
+        "Hazelnut",
+        "Signature"
+      ]
+    },
+    {
+      "id": "prod-classic-frappe",
+      "name": "Classic Cold Coffee Frappe",
+      "category": "Frappes",
+      "price": 129,
+      "description": "Thick iced coffee blend with a creamy texture, crowned with airy whipped cream and cocoa powder.",
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 160,
+      "minStock": 20,
+      "ingredients": [
+        {
+          "ingredientId": "inv-beans",
+          "name": "Arabica Coffee Beans",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "inv-milk",
+          "name": "Full Cream Milk",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-whip",
+          "name": "Whipped Cream",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "inv-cups-cold",
+          "name": "Cold Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-extra-shot",
+          "name": "Espresso Boost",
+          "price": 30
+        },
+        {
+          "id": "ao-choco-chips",
+          "name": "Crunchy Choco Chips",
+          "price": 20
+        }
+      ],
+      "tags": [
+        "Icy",
+        "Classic",
+        "Thick"
+      ]
+    },
+    {
+      "id": "prod-mocha-frappe",
+      "name": "Mocha Fudge Frappe",
+      "category": "Frappes",
+      "price": 149,
+      "description": "Deep espresso blended with dark fudge and milk, finished with mountain cream and chocolate drizzle.",
+      "image": "https://images.unsplash.com/photo-1579888944880-d98341245702?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 130,
+      "minStock": 15,
+      "ingredients": [
+        {
+          "ingredientId": "inv-beans",
+          "name": "Arabica Coffee Beans",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "inv-chocolate",
+          "name": "Belgian Chocolate",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-milk",
+          "name": "Full Cream Milk",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-whip",
+          "name": "Whipped Cream",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "inv-cups-cold",
+          "name": "Cold Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-extra-fudge",
+          "name": "Extra Dark Fudge",
+          "price": 20
+        }
+      ],
+      "tags": [
+        "Chocolate",
+        "Blended"
+      ]
+    },
+    {
+      "id": "prod-signature-hot-chocolate",
+      "name": "Signature Dark Hot Chocolate",
+      "category": "Hot Chocolate",
+      "price": 129,
+      "description": "Pure melted 70% dark Belgian chocolate simmered with velvety milk for an ultra-thick sipping experience.",
+      "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 180,
+      "minStock": 20,
+      "isFeatured": true,
+      "ingredients": [
+        {
+          "ingredientId": "inv-chocolate",
+          "name": "Belgian Chocolate",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-milk",
+          "name": "Full Cream Milk",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-cups-hot",
+          "name": "Hot Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-marshmallow",
+          "name": "Toasted Marshmallows",
+          "price": 25
+        },
+        {
+          "id": "ao-whip",
+          "name": "Whipped Cream",
+          "price": 20
+        }
+      ],
+      "tags": [
+        "70% Dark",
+        "Thick",
+        "Signature"
+      ]
+    },
+    {
+      "id": "prod-nutella-hot-chocolate",
+      "name": "Nutella Hot Chocolate",
+      "category": "Hot Chocolate",
+      "price": 149,
+      "description": "Warm, hazelnut-rich Nutella melted into steaming milk and topped with toasted hazelnut shavings.",
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 140,
+      "minStock": 15,
+      "ingredients": [
+        {
+          "ingredientId": "inv-nutella",
+          "name": "Nutella Spread",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "inv-milk",
+          "name": "Full Cream Milk",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-cups-hot",
+          "name": "Hot Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-whip",
+          "name": "Whipped Cream",
+          "price": 20
+        },
+        {
+          "id": "ao-cinnamon",
+          "name": "Ceylon Cinnamon Dust",
+          "price": 15
+        }
+      ],
+      "tags": [
+        "Nutella",
+        "Warmth"
+      ]
+    },
+    {
+      "id": "prod-iced-americano",
+      "name": "Iced Americano",
+      "category": "Iced Coffees",
+      "price": 99,
+      "description": "Double shot of freshly pulled espresso over cold filtered water and clear crystal ice.",
+      "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 250,
+      "minStock": 25,
+      "ingredients": [
+        {
+          "ingredientId": "inv-beans",
+          "name": "Arabica Coffee Beans",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "inv-cups-cold",
+          "name": "Cold Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-extra-shot",
+          "name": "Third Shot Float",
+          "price": 30
+        },
+        {
+          "id": "ao-tonic",
+          "name": "Tonic Water Sub",
+          "price": 30
+        }
+      ],
+      "tags": [
+        "Crisp",
+        "Zero Sugar",
+        "Pure"
+      ]
+    },
+    {
+      "id": "prod-cold-brew",
+      "name": "Signature Cold Brew",
+      "category": "Iced Coffees",
+      "price": 129,
+      "description": "18-hour slow cold-steeped Arabica coffee with natural tasting notes of dark chocolate and stone fruit.",
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 95,
+      "minStock": 15,
+      "isSpecial": true,
+      "ingredients": [
+        {
+          "ingredientId": "inv-beans",
+          "name": "Arabica Coffee Beans",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "inv-cups-cold",
+          "name": "Cold Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-sweet-cream",
+          "name": "Vanilla Sweet Cream Float",
+          "price": 25
+        }
+      ],
+      "tags": [
+        "18-Hr Steeped",
+        "Smooth"
+      ]
+    },
+    {
+      "id": "prod-belgian-shake",
+      "name": "Belgian Chocolate Shake",
+      "category": "Milk Shakes",
+      "price": 139,
+      "description": "Decadent chocolate shake made with pure couverture chocolate ganache and full cream milk.",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 110,
+      "minStock": 15,
+      "ingredients": [
+        {
+          "ingredientId": "inv-chocolate",
+          "name": "Belgian Chocolate",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-milk",
+          "name": "Full Cream Milk",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "inv-cups-cold",
+          "name": "Cold Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-whip",
+          "name": "Whipped Cream",
+          "price": 20
+        },
+        {
+          "id": "ao-oreo",
+          "name": "Crushed Oreo Crumbs",
+          "price": 20
+        }
+      ],
+      "tags": [
+        "Creamy",
+        "Decadent"
+      ]
+    },
+    {
+      "id": "prod-passion-refresher",
+      "name": "Passion Fruit Sparkling Refresher",
+      "category": "Refreshers",
+      "price": 99,
+      "description": "Tangy passion fruit pulp infused with sparkling soda, fresh mint sprigs and lemon slices.",
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=1200&q=80",
+      "availability": true,
+      "inventoryQuantity": 140,
+      "minStock": 20,
+      "ingredients": [
+        {
+          "ingredientId": "inv-cups-cold",
+          "name": "Cold Cup",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ],
+      "addOns": [
+        {
+          "id": "ao-chia",
+          "name": "Chia Seeds",
+          "price": 15
+        }
+      ],
+      "tags": [
+        "Sparkling",
+        "Citrus",
+        "Cooling"
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "id": "inv-beans",
+      "name": "Arabica Coffee Beans (Single Origin)",
+      "category": "Coffee",
+      "quantity": 12500,
+      "unit": "g",
+      "minStock": 2000,
+      "supplier": "Blue Tokai Estate Roastery",
+      "lastRestocked": "2026-09-09T17:54:58.326Z"
+    },
+    {
+      "id": "inv-milk",
+      "name": "Full Cream Farm Fresh Milk",
+      "category": "Dairy",
+      "quantity": 45000,
+      "unit": "ml",
+      "minStock": 10000,
+      "supplier": "Amul Fresh Dairy",
+      "lastRestocked": "2026-09-09T17:54:58.326Z"
+    },
+    {
+      "id": "inv-chocolate",
+      "name": "Belgian Dark Chocolate Ganache",
+      "category": "Confectionery",
+      "quantity": 6000,
+      "unit": "ml",
+      "minStock": 1200,
+      "supplier": "Callebaut Gourmet",
+      "lastRestocked": "2026-09-09T17:54:58.326Z"
+    },
+    {
+      "id": "inv-nutella",
+      "name": "Nutella Hazelnut Spread",
+      "category": "Confectionery",
+      "quantity": 4500,
+      "unit": "g",
+      "minStock": 800,
+      "supplier": "Ferrero India",
+      "lastRestocked": "2026-09-09T17:54:58.326Z"
+    },
+    {
+      "id": "inv-maple",
+      "name": "Pure Canadian Maple Syrup",
+      "category": "Syrups",
+      "quantity": 3200,
+      "unit": "ml",
+      "minStock": 500,
+      "supplier": "Maple Treat Imports",
+      "lastRestocked": "2026-09-09T17:54:58.326Z"
+    },
+    {
+      "id": "inv-caramel",
+      "name": "Salted Caramel Syrup",
+      "category": "Syrups",
+      "quantity": 4000,
+      "unit": "ml",
+      "minStock": 800,
+      "supplier": "Monin Artisanal",
+      "lastRestocked": "2026-09-09T17:54:58.326Z"
+    },
+    {
+      "id": "inv-whip",
+      "name": "Heavy Whipped Cream",
+      "category": "Dairy",
+      "quantity": 5000,
+      "unit": "g",
+      "minStock": 1000,
+      "supplier": "Richs Whipped Toppings",
+      "lastRestocked": "2026-09-09T17:54:58.326Z"
+    },
+    {
+      "id": "inv-cups-hot",
+      "name": "Coffee Aroma Branded Hot Cups (12oz)",
+      "category": "Packaging",
+      "quantity": 480,
+      "unit": "pcs",
+      "minStock": 100,
+      "supplier": "EcoPack India",
+      "lastRestocked": "2026-09-09T17:54:58.326Z"
+    },
+    {
+      "id": "inv-cups-cold",
+      "name": "Coffee Aroma Crystal Cold Cups (16oz)",
+      "category": "Packaging",
+      "quantity": 350,
+      "unit": "pcs",
+      "minStock": 80,
+      "supplier": "EcoPack India",
+      "lastRestocked": "2026-09-09T17:54:58.326Z"
+    },
+    {
+      "id": "inv-pancake-boxes",
+      "name": "Kraft Pancake Presentation Boxes",
+      "category": "Packaging",
+      "quantity": 220,
+      "unit": "pcs",
+      "minStock": 50,
+      "supplier": "GreenCart Packaging",
+      "lastRestocked": "2026-09-09T17:54:58.326Z"
+    }
+  ],
+  "bills": [
+    {
+      "id": "bill-1001",
+      "billNumber": "CA-1001",
+      "date": "2026-09-02",
+      "time": "09:54 PM",
+      "customerName": "Guest 1",
+      "customerPhone": "+91 9823000001",
+      "tableNo": "T-2",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 2,
+          "selectedAddOns": [],
+          "subtotal": 198
+        }
+      ],
+      "subtotal": 198,
+      "discount": 0,
+      "total": 198,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-02T21:54:58.538Z"
+    },
+    {
+      "id": "bill-1002",
+      "billNumber": "CA-1002",
+      "date": "2026-09-03",
+      "time": "01:54 AM",
+      "customerName": "Guest 2",
+      "customerPhone": "+91 9823000002",
+      "tableNo": "T-3",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 3,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 327
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 496,
+      "discount": 0,
+      "total": 496,
+      "paymentMethod": "PAY_AT_COUNTER",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-03T01:54:58.538Z"
+    },
+    {
+      "id": "bill-1003",
+      "billNumber": "CA-1003",
+      "date": "2026-09-03",
+      "time": "05:54 AM",
+      "customerName": "Guest 3",
+      "customerPhone": "+91 9823000003",
+      "tableNo": "T-4",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 1,
+          "selectedAddOns": [],
+          "subtotal": 99
+        },
+        {
+          "productId": "prod-tiramisu-cheesecake-latte",
+          "productName": "Tiramisu Cheesecake Latte",
+          "price": 169,
+          "quantity": 1,
+          "selectedAddOns": [],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 268,
+      "discount": 0,
+      "total": 268,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-03T05:54:58.538Z"
+    },
+    {
+      "id": "bill-1004",
+      "billNumber": "CA-1004",
+      "date": "2026-09-03",
+      "time": "09:54 AM",
+      "customerName": "Guest 4",
+      "customerPhone": "+91 9823000004",
+      "tableNo": "T-5",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 2,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 228
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 397,
+      "discount": 20,
+      "total": 377,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-03T09:54:58.538Z"
+    },
+    {
+      "id": "bill-1005",
+      "billNumber": "CA-1005",
+      "date": "2026-09-03",
+      "time": "01:54 PM",
+      "customerName": "Guest 5",
+      "customerPhone": "+91 9823000005",
+      "tableNo": "T-6",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 3,
+          "selectedAddOns": [],
+          "subtotal": 297
+        }
+      ],
+      "subtotal": 297,
+      "discount": 0,
+      "total": 297,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-03T13:54:58.538Z"
+    },
+    {
+      "id": "bill-1006",
+      "billNumber": "CA-1006",
+      "date": "2026-09-03",
+      "time": "05:54 PM",
+      "customerName": "Guest 6",
+      "customerPhone": "+91 9823000006",
+      "tableNo": "T-7",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 129
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 298,
+      "discount": 0,
+      "total": 298,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-03T17:54:58.538Z"
+    },
+    {
+      "id": "bill-1007",
+      "billNumber": "CA-1007",
+      "date": "2026-09-03",
+      "time": "09:54 PM",
+      "customerName": "Guest 7",
+      "customerPhone": "+91 9823000007",
+      "tableNo": "T-8",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 2,
+          "selectedAddOns": [],
+          "subtotal": 198
+        }
+      ],
+      "subtotal": 198,
+      "discount": 0,
+      "total": 198,
+      "paymentMethod": "PAY_AT_COUNTER",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-03T21:54:58.538Z"
+    },
+    {
+      "id": "bill-1008",
+      "billNumber": "CA-1008",
+      "date": "2026-09-04",
+      "time": "01:54 AM",
+      "customerName": "Guest 8",
+      "customerPhone": "+91 9823000008",
+      "tableNo": "T-1",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 3,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 327
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 496,
+      "discount": 20,
+      "total": 476,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-04T01:54:58.538Z"
+    },
+    {
+      "id": "bill-1009",
+      "billNumber": "CA-1009",
+      "date": "2026-09-04",
+      "time": "05:54 AM",
+      "customerName": "Guest 9",
+      "customerPhone": "+91 9823000009",
+      "tableNo": "T-2",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 1,
+          "selectedAddOns": [],
+          "subtotal": 99
+        },
+        {
+          "productId": "prod-tiramisu-cheesecake-latte",
+          "productName": "Tiramisu Cheesecake Latte",
+          "price": 169,
+          "quantity": 1,
+          "selectedAddOns": [],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 268,
+      "discount": 0,
+      "total": 268,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-04T05:54:58.538Z"
+    },
+    {
+      "id": "bill-1010",
+      "billNumber": "CA-1010",
+      "date": "2026-09-04",
+      "time": "09:54 AM",
+      "customerName": "Guest 10",
+      "customerPhone": "+91 9823000010",
+      "tableNo": "T-3",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 2,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 228
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 397,
+      "discount": 0,
+      "total": 397,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-04T09:54:58.538Z"
+    },
+    {
+      "id": "bill-1011",
+      "billNumber": "CA-1011",
+      "date": "2026-09-04",
+      "time": "01:54 PM",
+      "customerName": "Guest 11",
+      "customerPhone": "+91 9823000011",
+      "tableNo": "T-4",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 3,
+          "selectedAddOns": [],
+          "subtotal": 297
+        }
+      ],
+      "subtotal": 297,
+      "discount": 0,
+      "total": 297,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-04T13:54:58.538Z"
+    },
+    {
+      "id": "bill-1012",
+      "billNumber": "CA-1012",
+      "date": "2026-09-04",
+      "time": "05:54 PM",
+      "customerName": "Guest 12",
+      "customerPhone": "+91 9823000012",
+      "tableNo": "T-5",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 129
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 298,
+      "discount": 20,
+      "total": 278,
+      "paymentMethod": "PAY_AT_COUNTER",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-04T17:54:58.538Z"
+    },
+    {
+      "id": "bill-1013",
+      "billNumber": "CA-1013",
+      "date": "2026-09-09",
+      "time": "10:39 AM",
+      "customerName": "Guest 13",
+      "customerPhone": "+91 9823000013",
+      "tableNo": "T-6",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 2,
+          "selectedAddOns": [],
+          "subtotal": 198
+        }
+      ],
+      "subtotal": 198,
+      "discount": 0,
+      "total": 198,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T10:39:58.538Z"
+    },
+    {
+      "id": "bill-1014",
+      "billNumber": "CA-1014",
+      "date": "2026-09-09",
+      "time": "10:54 AM",
+      "customerName": "Guest 14",
+      "customerPhone": "+91 9823000014",
+      "tableNo": "T-7",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 3,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 327
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 496,
+      "discount": 0,
+      "total": 496,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T10:54:58.538Z"
+    },
+    {
+      "id": "bill-1015",
+      "billNumber": "CA-1015",
+      "date": "2026-09-09",
+      "time": "11:09 AM",
+      "customerName": "Guest 15",
+      "customerPhone": "+91 9823000015",
+      "tableNo": "T-8",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 1,
+          "selectedAddOns": [],
+          "subtotal": 99
+        },
+        {
+          "productId": "prod-tiramisu-cheesecake-latte",
+          "productName": "Tiramisu Cheesecake Latte",
+          "price": 169,
+          "quantity": 1,
+          "selectedAddOns": [],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 268,
+      "discount": 0,
+      "total": 268,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T11:09:58.538Z"
+    },
+    {
+      "id": "bill-1016",
+      "billNumber": "CA-1016",
+      "date": "2026-09-09",
+      "time": "11:24 AM",
+      "customerName": "Guest 16",
+      "customerPhone": "+91 9823000016",
+      "tableNo": "T-1",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 2,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 228
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 397,
+      "discount": 20,
+      "total": 377,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T11:24:58.538Z"
+    },
+    {
+      "id": "bill-1017",
+      "billNumber": "CA-1017",
+      "date": "2026-09-09",
+      "time": "11:39 AM",
+      "customerName": "Guest 17",
+      "customerPhone": "+91 9823000017",
+      "tableNo": "T-2",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 3,
+          "selectedAddOns": [],
+          "subtotal": 297
+        }
+      ],
+      "subtotal": 297,
+      "discount": 0,
+      "total": 297,
+      "paymentMethod": "PAY_AT_COUNTER",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T11:39:58.538Z"
+    },
+    {
+      "id": "bill-1018",
+      "billNumber": "CA-1018",
+      "date": "2026-09-09",
+      "time": "11:54 AM",
+      "customerName": "Guest 18",
+      "customerPhone": "+91 9823000018",
+      "tableNo": "T-3",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 129
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 298,
+      "discount": 0,
+      "total": 298,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T11:54:58.538Z"
+    },
+    {
+      "id": "bill-1019",
+      "billNumber": "CA-1019",
+      "date": "2026-09-09",
+      "time": "12:09 PM",
+      "customerName": "Guest 19",
+      "customerPhone": "+91 9823000019",
+      "tableNo": "T-4",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 2,
+          "selectedAddOns": [],
+          "subtotal": 198
+        }
+      ],
+      "subtotal": 198,
+      "discount": 0,
+      "total": 198,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T12:09:58.538Z"
+    },
+    {
+      "id": "bill-1020",
+      "billNumber": "CA-1020",
+      "date": "2026-09-09",
+      "time": "12:24 PM",
+      "customerName": "Guest 20",
+      "customerPhone": "+91 9823000020",
+      "tableNo": "T-5",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 3,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 327
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 496,
+      "discount": 20,
+      "total": 476,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T12:24:58.538Z"
+    },
+    {
+      "id": "bill-1021",
+      "billNumber": "CA-1021",
+      "date": "2026-09-09",
+      "time": "12:39 PM",
+      "customerName": "Guest 21",
+      "customerPhone": "+91 9823000021",
+      "tableNo": "T-6",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 1,
+          "selectedAddOns": [],
+          "subtotal": 99
+        },
+        {
+          "productId": "prod-tiramisu-cheesecake-latte",
+          "productName": "Tiramisu Cheesecake Latte",
+          "price": 169,
+          "quantity": 1,
+          "selectedAddOns": [],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 268,
+      "discount": 0,
+      "total": 268,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T12:39:58.538Z"
+    },
+    {
+      "id": "bill-1022",
+      "billNumber": "CA-1022",
+      "date": "2026-09-09",
+      "time": "12:54 PM",
+      "customerName": "Guest 22",
+      "customerPhone": "+91 9823000022",
+      "tableNo": "T-7",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 2,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 228
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 397,
+      "discount": 0,
+      "total": 397,
+      "paymentMethod": "PAY_AT_COUNTER",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T12:54:58.538Z"
+    },
+    {
+      "id": "bill-1023",
+      "billNumber": "CA-1023",
+      "date": "2026-09-09",
+      "time": "01:09 PM",
+      "customerName": "Guest 23",
+      "customerPhone": "+91 9823000023",
+      "tableNo": "T-8",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 3,
+          "selectedAddOns": [],
+          "subtotal": 297
+        }
+      ],
+      "subtotal": 297,
+      "discount": 0,
+      "total": 297,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T13:09:58.538Z"
+    },
+    {
+      "id": "bill-1024",
+      "billNumber": "CA-1024",
+      "date": "2026-09-09",
+      "time": "01:24 PM",
+      "customerName": "Guest 24",
+      "customerPhone": "+91 9823000024",
+      "tableNo": "T-1",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 129
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 298,
+      "discount": 20,
+      "total": 278,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T13:24:58.538Z"
+    },
+    {
+      "id": "bill-1025",
+      "billNumber": "CA-1025",
+      "date": "2026-09-09",
+      "time": "01:39 PM",
+      "customerName": "Guest 25",
+      "customerPhone": "+91 9823000025",
+      "tableNo": "T-2",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 2,
+          "selectedAddOns": [],
+          "subtotal": 198
+        }
+      ],
+      "subtotal": 198,
+      "discount": 0,
+      "total": 198,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T13:39:58.538Z"
+    },
+    {
+      "id": "bill-1026",
+      "billNumber": "CA-1026",
+      "date": "2026-09-09",
+      "time": "01:54 PM",
+      "customerName": "Guest 26",
+      "customerPhone": "+91 9823000026",
+      "tableNo": "T-3",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 3,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 327
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 496,
+      "discount": 0,
+      "total": 496,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T13:54:58.538Z"
+    },
+    {
+      "id": "bill-1027",
+      "billNumber": "CA-1027",
+      "date": "2026-09-09",
+      "time": "02:09 PM",
+      "customerName": "Guest 27",
+      "customerPhone": "+91 9823000027",
+      "tableNo": "T-4",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 1,
+          "selectedAddOns": [],
+          "subtotal": 99
+        },
+        {
+          "productId": "prod-tiramisu-cheesecake-latte",
+          "productName": "Tiramisu Cheesecake Latte",
+          "price": 169,
+          "quantity": 1,
+          "selectedAddOns": [],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 268,
+      "discount": 0,
+      "total": 268,
+      "paymentMethod": "PAY_AT_COUNTER",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T14:09:58.538Z"
+    },
+    {
+      "id": "bill-1028",
+      "billNumber": "CA-1028",
+      "date": "2026-09-09",
+      "time": "02:24 PM",
+      "customerName": "Guest 28",
+      "customerPhone": "+91 9823000028",
+      "tableNo": "T-5",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 2,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 228
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 397,
+      "discount": 20,
+      "total": 377,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T14:24:58.538Z"
+    },
+    {
+      "id": "bill-1029",
+      "billNumber": "CA-1029",
+      "date": "2026-09-09",
+      "time": "02:39 PM",
+      "customerName": "Guest 29",
+      "customerPhone": "+91 9823000029",
+      "tableNo": "T-6",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 3,
+          "selectedAddOns": [],
+          "subtotal": 297
+        }
+      ],
+      "subtotal": 297,
+      "discount": 0,
+      "total": 297,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T14:39:58.538Z"
+    },
+    {
+      "id": "bill-1030",
+      "billNumber": "CA-1030",
+      "date": "2026-09-09",
+      "time": "02:54 PM",
+      "customerName": "Guest 30",
+      "customerPhone": "+91 9823000030",
+      "tableNo": "T-7",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 129
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 298,
+      "discount": 0,
+      "total": 298,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T14:54:58.538Z"
+    },
+    {
+      "id": "bill-1031",
+      "billNumber": "CA-1031",
+      "date": "2026-09-09",
+      "time": "03:09 PM",
+      "customerName": "Guest 31",
+      "customerPhone": "+91 9823000031",
+      "tableNo": "T-8",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 2,
+          "selectedAddOns": [],
+          "subtotal": 198
+        }
+      ],
+      "subtotal": 198,
+      "discount": 0,
+      "total": 198,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T15:09:58.538Z"
+    },
+    {
+      "id": "bill-1032",
+      "billNumber": "CA-1032",
+      "date": "2026-09-09",
+      "time": "03:24 PM",
+      "customerName": "Guest 32",
+      "customerPhone": "+91 9823000032",
+      "tableNo": "T-1",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 3,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 327
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 496,
+      "discount": 20,
+      "total": 476,
+      "paymentMethod": "PAY_AT_COUNTER",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T15:24:58.538Z"
+    },
+    {
+      "id": "bill-1033",
+      "billNumber": "CA-1033",
+      "date": "2026-09-09",
+      "time": "03:39 PM",
+      "customerName": "Guest 33",
+      "customerPhone": "+91 9823000033",
+      "tableNo": "T-2",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 1,
+          "selectedAddOns": [],
+          "subtotal": 99
+        },
+        {
+          "productId": "prod-tiramisu-cheesecake-latte",
+          "productName": "Tiramisu Cheesecake Latte",
+          "price": 169,
+          "quantity": 1,
+          "selectedAddOns": [],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 268,
+      "discount": 0,
+      "total": 268,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T15:39:58.538Z"
+    },
+    {
+      "id": "bill-1034",
+      "billNumber": "CA-1034",
+      "date": "2026-09-09",
+      "time": "03:54 PM",
+      "customerName": "Guest 34",
+      "customerPhone": "+91 9823000034",
+      "tableNo": "T-3",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 2,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 228
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 397,
+      "discount": 0,
+      "total": 397,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T15:54:58.538Z"
+    },
+    {
+      "id": "bill-1035",
+      "billNumber": "CA-1035",
+      "date": "2026-09-09",
+      "time": "04:09 PM",
+      "customerName": "Guest 35",
+      "customerPhone": "+91 9823000035",
+      "tableNo": "T-4",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 3,
+          "selectedAddOns": [],
+          "subtotal": 297
+        }
+      ],
+      "subtotal": 297,
+      "discount": 0,
+      "total": 297,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T16:09:58.538Z"
+    },
+    {
+      "id": "bill-1036",
+      "billNumber": "CA-1036",
+      "date": "2026-09-09",
+      "time": "04:24 PM",
+      "customerName": "Guest 36",
+      "customerPhone": "+91 9823000036",
+      "tableNo": "T-5",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 129
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 298,
+      "discount": 20,
+      "total": 278,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T16:24:58.538Z"
+    },
+    {
+      "id": "bill-1037",
+      "billNumber": "CA-1037",
+      "date": "2026-09-09",
+      "time": "04:39 PM",
+      "customerName": "Guest 37",
+      "customerPhone": "+91 9823000037",
+      "tableNo": "T-6",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 2,
+          "selectedAddOns": [],
+          "subtotal": 198
+        }
+      ],
+      "subtotal": 198,
+      "discount": 0,
+      "total": 198,
+      "paymentMethod": "PAY_AT_COUNTER",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T16:39:58.538Z"
+    },
+    {
+      "id": "bill-1038",
+      "billNumber": "CA-1038",
+      "date": "2026-09-09",
+      "time": "04:54 PM",
+      "customerName": "Guest 38",
+      "customerPhone": "+91 9823000038",
+      "tableNo": "T-7",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 3,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 327
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 496,
+      "discount": 0,
+      "total": 496,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T16:54:58.538Z"
+    },
+    {
+      "id": "bill-1039",
+      "billNumber": "CA-1039",
+      "date": "2026-09-09",
+      "time": "05:09 PM",
+      "customerName": "Guest 39",
+      "customerPhone": "+91 9823000039",
+      "tableNo": "T-8",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 1,
+          "selectedAddOns": [],
+          "subtotal": 99
+        },
+        {
+          "productId": "prod-tiramisu-cheesecake-latte",
+          "productName": "Tiramisu Cheesecake Latte",
+          "price": 169,
+          "quantity": 1,
+          "selectedAddOns": [],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 268,
+      "discount": 0,
+      "total": 268,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T17:09:58.538Z"
+    },
+    {
+      "id": "bill-1040",
+      "billNumber": "CA-1040",
+      "date": "2026-09-09",
+      "time": "05:24 PM",
+      "customerName": "Guest 40",
+      "customerPhone": "+91 9823000040",
+      "tableNo": "T-1",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 2,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 228
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 397,
+      "discount": 20,
+      "total": 377,
+      "paymentMethod": "ONLINE",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T17:24:58.538Z"
+    },
+    {
+      "id": "bill-1041",
+      "billNumber": "CA-1041",
+      "date": "2026-09-09",
+      "time": "05:39 PM",
+      "customerName": "Guest 41",
+      "customerPhone": "+91 9823000041",
+      "tableNo": "T-2",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 3,
+          "selectedAddOns": [],
+          "subtotal": 297
+        }
+      ],
+      "subtotal": 297,
+      "discount": 0,
+      "total": 297,
+      "paymentMethod": "CASH",
+      "status": "PAID",
+      "createdBy": "Priya Sharma",
+      "createdAt": "2026-09-09T17:39:58.538Z"
+    },
+    {
+      "id": "bill-1042",
+      "billNumber": "CA-1042",
+      "date": "2026-09-09",
+      "time": "05:54 PM",
+      "customerName": "Guest 42",
+      "customerPhone": "+91 9823000042",
+      "tableNo": "T-3",
+      "items": [
+        {
+          "productId": "prod-cappuccino",
+          "productName": "Cappuccino",
+          "price": 99,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Extra Shot",
+              "price": 30
+            }
+          ],
+          "subtotal": 129
+        },
+        {
+          "productId": "prod-nutella-pancake",
+          "productName": "Nutella Hazelnut Pancake",
+          "price": 149,
+          "quantity": 1,
+          "selectedAddOns": [
+            {
+              "name": "Whipped Cream",
+              "price": 20
+            }
+          ],
+          "subtotal": 169
+        }
+      ],
+      "subtotal": 298,
+      "discount": 0,
+      "total": 298,
+      "paymentMethod": "PAY_AT_COUNTER",
+      "status": "PAID",
+      "createdBy": "Rutik Mane",
+      "createdAt": "2026-09-09T17:54:58.538Z"
+    }
+  ],
+  "offers": [
+    {
+      "id": "off-weekend-brew",
+      "title": "WEEKEND BREW FESTIVAL",
+      "subtitle": "Flat 20% OFF on all Signature Speciality Drinks & Gourmet Pancakes",
+      "discountPercent": 20,
+      "badgeText": "TODAY'S SPECIAL",
+      "startDate": "2026-09-09T15:54:58.326Z",
+      "endDate": "2026-09-10T08:31:58.326Z",
+      "applicableCategories": [
+        "Speciality Drinks",
+        "Pancakes"
+      ],
+      "bannerImage": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1400&q=80",
+      "isActive": true
+    },
+    {
+      "id": "off-morning-espresso",
+      "title": "SUNRISE ROAST REWARD",
+      "subtitle": "Get 15% OFF on all Speciality Hot Coffees between 8 AM & 12 PM",
+      "discountPercent": 15,
+      "badgeText": "MORNING SPECIAL",
+      "startDate": "2026-09-09T13:54:58.326Z",
+      "endDate": "2026-09-10T17:54:58.326Z",
+      "applicableCategories": [
+        "Speciality Coffees"
+      ],
+      "bannerImage": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1400&q=80",
+      "isActive": true
+    }
+  ],
+  "shopStatus": {
+    "isOpen": true,
+    "statusMessage": "Brewing freshly roasted beans in Pune. Walk in or order online for counter pickup!",
+    "openingHours": "08:00 AM – 11:30 PM",
+    "phone": "+91 7709054465",
+    "address": "Shop No. 4, Royal Vista, Near Kokane Chowk, Pimple Saudagar, Rahatani, Pune, Maharashtra 411027",
+    "googleReviewUrl": "https://maps.app.goo.gl/riGQMPZFcG4AhXQb7?g_st=aw",
+    "googleMapsUrl": "https://maps.app.goo.gl/riGQMPZFcG4AhXQb7?g_st=aw"
+  },
+  "notifications": [
+    {
+      "id": "notif-1",
+      "email": "customer.aroma@gmail.com",
+      "productId": "prod-cold-brew",
+      "productName": "Signature Cold Brew",
+      "date": "2026-09-09T16:54:58.564Z"
+    }
+  ],
+  "lastUpdated": "2026-09-09T17:54:58.564Z"
+}
